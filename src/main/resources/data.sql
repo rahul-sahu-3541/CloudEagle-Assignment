@@ -4,10 +4,10 @@ VALUES (
            'calendly',
            'https://api.calendly.com',
            '/users',
-           'OAUTH2_CLIENT_CREDENTIALS', -- or use 'OAUTH2' (use consistent string with your code)
+           'OAUTH2',
            '{
-              "client_id":"js48qnojZ70ORuDScew2BoC_evrCXs1F6NHkR-31cZ0",
-              "client_secret":"LfsMcPDdyCzex3KAR-iGRvR2Clf1KF7MWPsIXT5L1YY",
+              "client_id":"YOUR_CLIENT_ID_HERE",
+              "client_secret":"YOUR_CLIENT_SECRET_HERE",
               "authorize_url":"https://auth.calendly.com/oauth/authorize",
               "token_url":"https://auth.calendly.com/oauth/token",
               "redirect_uri":"http://localhost:8080/api/integrations/oauth/callback"
